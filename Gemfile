@@ -68,6 +68,8 @@ gem "rails_admin", "~> 1.2"
 gem 'figaro'
 #Use for jobs send mail
 gem 'delayed_job_active_record'
+#Use redis
+gem 'redis-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
